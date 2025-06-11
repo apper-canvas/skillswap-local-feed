@@ -5,6 +5,25 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 class MatchService {
   constructor() {
     this.matches = [...matchData];
+    this.cache = new Map();
+    this.cacheTimeout = 5 * 60 * 1000; // 5 minutes
+  }
+
+  _getCacheKey(method, ...args) {
+    return `${method}:${args.join(':')}`;
+  }
+
+  _getFromCache(key) {
+    const cached = this.cache.get(key);
+    if (cached && Date.now() - cached.timestamp < this.cacheTimeout) {
+      return cached.data;
+    }
+    return null;
+  }
+
+  _setCache(key, data) {
+    this.cache.set(key, { data, timestamp: Date.now() });
+    return data;
   }
 
   async getAll() {
@@ -48,15 +67,20 @@ class MatchService {
     if (index === -1) {
       throw new Error('Match not found');
     }
-    this.matches.splice(index, 1);
+this.matches.splice(index, 1);
     return true;
   }
 
   async getByUserId(userId) {
+    const cacheKey = this._getCacheKey('getByUserId', userId);
+    const cached = this._getFromCache(cacheKey);
+    if (cached) return cached;
+    
     await delay(250);
-    return this.matches.filter(match => 
+    const result = this.matches.filter(match => 
       match.teacherId === userId || match.learnerId === userId
     );
+    return this._setCache(cacheKey, result);
   }
 }
 

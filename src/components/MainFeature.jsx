@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo, memo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { toast } from 'react-toastify';
 import ApperIcon from './ApperIcon';
@@ -50,11 +50,13 @@ const MainFeature = () => {
     } catch (err) {
       toast.error('Failed to create match');
     }
-  };
+};
 
-  const filteredSkills = selectedCategory === 'all' 
-    ? skills 
-    : skills.filter(skill => skill.category === selectedCategory);
+  const filteredSkills = useMemo(() => {
+    return selectedCategory === 'all' 
+      ? skills 
+      : skills.filter(skill => skill.category === selectedCategory);
+  }, [skills, selectedCategory]);
 
   if (loading) {
     return (
@@ -247,7 +249,7 @@ const MainFeature = () => {
   );
 };
 
-const SkillCard = ({ skill, index, onMatch }) => {
+const SkillCard = memo(({ skill, index, onMatch }) => {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
@@ -259,7 +261,10 @@ const SkillCard = ({ skill, index, onMatch }) => {
         console.error('Failed to load user:', err);
       }
     };
-    loadUser();
+    
+    if (skill.userId) {
+      loadUser();
+    }
   }, [skill.userId]);
 
   const getTypeColor = (type) => {
