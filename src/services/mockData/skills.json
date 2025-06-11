@@ -1,0 +1,102 @@
+[
+  {
+    "id": "skill1",
+    "userId": "user1",
+    "type": "offer",
+    "category": "Cooking",
+    "title": "Italian Pasta Making",
+    "description": "Learn to make authentic Italian pasta from scratch. I'll teach you traditional techniques passed down through generations, including how to make perfect dough and various pasta shapes.",
+    "level": "Intermediate",
+    "availability": ["Saturday Morning", "Saturday Afternoon", "Sunday Morning"]
+  },
+  {
+    "id": "skill2",
+    "userId": "user2",
+    "type": "offer",
+    "category": "Technology",
+    "title": "Python Programming for Beginners",
+    "description": "Complete introduction to Python programming. Perfect for absolute beginners who want to learn their first programming language. We'll cover basics to building simple projects.",
+    "level": "Beginner",
+    "availability": ["Monday Evening", "Wednesday Evening", "Weekend Morning"]
+  },
+  {
+    "id": "skill3",
+    "userId": "user3",
+    "type": "offer",
+    "category": "Music",
+    "title": "Acoustic Guitar Lessons",
+    "description": "Learn acoustic guitar from basic chords to fingerpicking techniques. Suitable for all levels, from complete beginners to intermediate players looking to improve.",
+    "level": "All Levels",
+    "availability": ["Tuesday Evening", "Thursday Evening", "Weekend Afternoon"]
+  },
+  {
+    "id": "skill4",
+    "userId": "user4",
+    "type": "offer",
+    "category": "Language",
+    "title": "Conversational Spanish",
+    "description": "Improve your Spanish speaking skills through casual conversation practice. Focus on everyday situations, travel phrases, and building confidence in speaking.",
+    "level": "Intermediate",
+    "availability": ["Monday Morning", "Wednesday Morning", "Friday Morning"]
+  },
+  {
+    "id": "skill5",
+    "userId": "user5",
+    "type": "offer",
+    "category": "Sports",
+    "title": "Beginner Yoga Classes",
+    "description": "Gentle introduction to yoga focusing on basic poses, breathing techniques, and mindfulness. Perfect for those new to yoga or looking to establish a regular practice.",
+    "level": "Beginner",
+    "availability": ["Monday Morning", "Tuesday Morning", "Thursday Morning", "Weekend Morning"]
+  },
+  {
+    "id": "skill6",
+    "userId": "user2",
+    "type": "request",
+    "category": "Arts",
+    "title": "Digital Photography Basics",
+    "description": "Want to learn the fundamentals of digital photography. Interested in composition, lighting, and basic photo editing techniques.",
+    "level": "Beginner",
+    "availability": ["Weekend Afternoon", "Weekend Evening"]
+  },
+  {
+    "id": "skill7",
+    "userId": "user3",
+    "type": "request",
+    "category": "Language",
+    "title": "French Language Practice",
+    "description": "Looking to practice conversational French. I have basic knowledge but need help with pronunciation and building vocabulary for travel.",
+    "level": "Beginner",
+    "availability": ["Thursday Evening", "Saturday Morning"]
+  },
+  {
+    "id": "skill8",
+    "userId": "user1",
+    "type": "offer",
+    "category": "Cooking",
+    "title": "Bread Baking Workshop",
+    "description": "Learn the art of bread making from sourdough starters to perfect kneading techniques. We'll make various types of bread including sourdough, whole wheat, and artisan loaves.",
+    "level": "Intermediate",
+    "availability": ["Saturday Afternoon", "Sunday Afternoon"]
+  },
+  {
+    "id": "skill9",
+    "userId": "user4",
+    "type": "request",
+    "category": "Technology",
+    "title": "Web Design Fundamentals",
+    "description": "Interested in learning modern web design principles, HTML/CSS basics, and creating responsive websites. Complete beginner looking for patient instruction.",
+    "level": "Beginner",
+    "availability": ["Tuesday Evening", "Friday Evening"]
+  },
+  {
+    "id": "skill10",
+    "userId": "user5",
+    "type": "request",
+    "category": "Music",
+    "title": "Piano Lessons",
+    "description": "Always wanted to learn piano! Looking for someone to teach me basic techniques, reading music, and playing simple songs. Have a keyboard at home.",
+    "level": "Beginner",
+    "availability": ["Wednesday Evening", "Weekend Afternoon"]
+  }
+]

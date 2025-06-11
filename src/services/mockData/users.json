@@ -1,0 +1,57 @@
+[
+  {
+    "id": "user1",
+    "name": "Emma Rodriguez",
+    "email": "emma.rodriguez@email.com",
+    "location": "Riverside District",
+    "bio": "Professional chef turned culinary instructor. I love sharing the joy of cooking with others and learning new techniques from fellow food enthusiasts.",
+    "avatar": null,
+    "rating": 4.9,
+    "creditBalance": 28,
+    "joinedDate": "2023-06-12T00:00:00Z"
+  },
+  {
+    "id": "user2",
+    "name": "Marcus Chen",
+    "email": "marcus.chen@email.com",
+    "location": "Tech Quarter",
+    "bio": "Software engineer with 8 years of experience. Passionate about teaching programming and learning new creative skills like music and art.",
+    "avatar": null,
+    "rating": 4.7,
+    "creditBalance": 35,
+    "joinedDate": "2023-07-22T00:00:00Z"
+  },
+  {
+    "id": "user3",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "location": "Arts District",
+    "bio": "Professional musician and music teacher. I specialize in guitar and piano, but I'm always eager to learn new instruments and teach others the joy of music.",
+    "avatar": null,
+    "rating": 4.8,
+    "creditBalance": 42,
+    "joinedDate": "2023-05-15T00:00:00Z"
+  },
+  {
+    "id": "user4",
+    "name": "David Kim",
+    "email": "david.kim@email.com",
+    "location": "University Area",
+    "bio": "Language enthusiast and polyglot. I speak 5 languages fluently and love helping others learn new languages while exploring different cultures.",
+    "avatar": null,
+    "rating": 4.6,
+    "creditBalance": 31,
+    "joinedDate": "2023-08-03T00:00:00Z"
+  },
+  {
+    "id": "user5",
+    "name": "Lisa Thompson",
+    "email": "lisa.thompson@email.com",
+    "location": "Green Valley",
+    "bio": "Yoga instructor and wellness coach. I'm passionate about fitness, mindfulness, and healthy living. Always looking to learn new skills and share knowledge.",
+    "avatar": null,
+    "rating": 4.9,
+    "creditBalance": 38,
+    "joinedDate": "2023-04-28T00:00:00Z"
+  }
+]

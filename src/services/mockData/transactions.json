@@ -1,0 +1,42 @@
+[
+  {
+    "id": "trans1",
+    "fromUserId": "user2",
+    "toUserId": "user3",
+    "sessionId": "session1",
+    "credits": 2,
+    "timestamp": "2024-01-16T20:00:00Z"
+  },
+  {
+    "id": "trans2",
+    "fromUserId": "user5",
+    "toUserId": "user2",
+    "sessionId": "session2",
+    "credits": 3,
+    "timestamp": "2024-01-16T19:30:00Z"
+  },
+  {
+    "id": "trans3",
+    "fromUserId": "user3",
+    "toUserId": "user5",
+    "sessionId": "session3",
+    "credits": 1,
+    "timestamp": "2024-01-15T11:00:00Z"
+  },
+  {
+    "id": "trans4",
+    "fromUserId": "user4",
+    "toUserId": "user1",
+    "sessionId": "session4",
+    "credits": 2,
+    "timestamp": "2024-01-14T15:30:00Z"
+  },
+  {
+    "id": "trans5",
+    "fromUserId": "user1",
+    "toUserId": "user4",
+    "sessionId": "session5",
+    "credits": 2,
+    "timestamp": "2024-01-13T12:45:00Z"
+  }
+]

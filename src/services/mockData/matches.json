@@ -1,0 +1,47 @@
+[
+  {
+    "id": "match1",
+    "teacherId": "user3",
+    "learnerId": "user2",
+    "skillId": "skill3",
+    "status": "confirmed",
+    "compatibilityScore": 92,
+    "createdAt": "2024-01-14T10:00:00Z"
+  },
+  {
+    "id": "match2",
+    "teacherId": "user1",
+    "learnerId": "user4",
+    "skillId": "skill1",
+    "status": "pending",
+    "compatibilityScore": 87,
+    "createdAt": "2024-01-15T14:30:00Z"
+  },
+  {
+    "id": "match3",
+    "teacherId": "user2",
+    "learnerId": "user5",
+    "skillId": "skill2",
+    "status": "confirmed",
+    "compatibilityScore": 94,
+    "createdAt": "2024-01-13T16:15:00Z"
+  },
+  {
+    "id": "match4",
+    "teacherId": "user5",
+    "learnerId": "user3",
+    "skillId": "skill5",
+    "status": "confirmed",
+    "compatibilityScore": 88,
+    "createdAt": "2024-01-12T11:45:00Z"
+  },
+  {
+    "id": "match5",
+    "teacherId": "user4",
+    "learnerId": "user1",
+    "skillId": "skill4",
+    "status": "pending",
+    "compatibilityScore": 85,
+    "createdAt": "2024-01-16T09:20:00Z"
+  }
+]

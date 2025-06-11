@@ -1,0 +1,42 @@
+[
+  {
+    "id": "session1",
+    "matchId": "match1",
+    "scheduledAt": "2024-01-18T19:00:00Z",
+    "duration": 60,
+    "location": "Community Center Room A",
+    "status": "scheduled"
+  },
+  {
+    "id": "session2",
+    "matchId": "match3",
+    "scheduledAt": "2024-01-16T18:00:00Z",
+    "duration": 90,
+    "location": "Virtual Meeting",
+    "status": "completed"
+  },
+  {
+    "id": "session3",
+    "matchId": "match4",
+    "scheduledAt": "2024-01-20T10:00:00Z",
+    "duration": 45,
+    "location": "Park Pavilion",
+    "status": "scheduled"
+  },
+  {
+    "id": "session4",
+    "matchId": "match1",
+    "scheduledAt": "2024-01-25T19:00:00Z",
+    "duration": 60,
+    "location": "Community Center Room A",
+    "status": "scheduled"
+  },
+  {
+    "id": "session5",
+    "matchId": "match3",
+    "scheduledAt": "2024-01-22T18:00:00Z",
+    "duration": 90,
+    "location": "Virtual Meeting",
+    "status": "scheduled"
+  }
+]
