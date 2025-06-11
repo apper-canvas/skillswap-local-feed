@@ -338,10 +338,10 @@ const SkillCard = memo(({ skill, index, onMatch }) => {
             </div>
           </motion.button>
         </div>
-      </div>
+</div>
     </motion.div>
   );
-};
+});
 
 const MatchCard = ({ match, index }) => {
   const [skill, setSkill] = useState(null);

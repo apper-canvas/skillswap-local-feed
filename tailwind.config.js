@@ -14,9 +14,9 @@ export default {
         background: '#FFFEF7',
         success: '#40916C',
         warning: '#F4A460',
-        error: '#E63946',
+error: '#E63946',
         info: '#457B9D',
-surface: {
+        surface: {
           100: '#FEFAE0',
           200: '#F8F4D3',
           300: '#F2EFC6',
